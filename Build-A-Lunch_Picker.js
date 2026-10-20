@@ -1,3 +1,7 @@
+/**
+ * Description: Implements helper functions to add, remove, randomize, and display lunch items using array methods.
+ */
+
 let lunches = []
 
 function addLunchToEnd(arr, str){
