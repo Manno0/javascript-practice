@@ -1,0 +1,19 @@
+/**
+ * Title: JavaScript Algorithm Lab: Repeat a String
+ * Description: Implements a function to repeat a given string a specified number of times using a for loop, with conditional handling for non-positive numbers.
+ */
+
+function repeatStringNumTimes(str, num){
+  if(num<=0){
+    return ""
+  }else{
+    let result=""
+    for(let i=1; i<=num; i++){
+      result+=str
+    }
+    return result
+  }
+}
+
+console.log(repeatStringNumTimes("*", 3))
+
